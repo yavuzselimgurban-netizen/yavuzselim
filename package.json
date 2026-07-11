@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && npm exec vite build",
+    "build": "tsc && node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
     "serve": "node server/index.js",
     "start": "npm run serve"
